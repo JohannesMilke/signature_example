@@ -1,0 +1,28 @@
+name: signature_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # display signature
+  signature: ^3.2.1
+
+  # save signature
+  permission_handler: ^5.1.0+2
+  image_gallery_saver: ^1.6.8
+
+  # show snackbar
+  flushbar: ^1.10.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
